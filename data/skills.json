@@ -1,0 +1,18 @@
+[
+  { "name": "Docker",      "icon": "FaDocker",        "category": "Containers" },
+  { "name": "Kubernetes",  "icon": "SiKubernetes",    "category": "Containers" },
+  { "name": "AKS",         "icon": "SiMicrosoftazure","category": "Cloud" },
+  { "name": "Azure",       "icon": "SiMicrosoftazure","category": "Cloud" },
+  { "name": "ACR",         "icon": "SiMicrosoftazure","category": "Cloud" },
+  { "name": "Jenkins",     "icon": "SiJenkins",       "category": "CI/CD" },
+  { "name": "CI/CD",       "icon": "SiGithubactions", "category": "CI/CD" },
+  { "name": "Terraform",   "icon": "SiTerraform",     "category": "IaC" },
+  { "name": "Ansible",     "icon": "SiAnsible",       "category": "IaC" },
+  { "name": "Helm",        "icon": "SiHelm",          "category": "Containers" },
+  { "name": "Linux",       "icon": "FaLinux",         "category": "OS" },
+  { "name": "Git",         "icon": "FaGitAlt",        "category": "VCS" },
+  { "name": "Python",      "icon": "FaPython",        "category": "Languages" },
+  { "name": "Nginx",       "icon": "SiNginx",         "category": "Networking" },
+  { "name": "Prometheus",  "icon": "SiPrometheus",    "category": "Monitoring" },
+  { "name": "Grafana",     "icon": "SiGrafana",       "category": "Monitoring" }
+]

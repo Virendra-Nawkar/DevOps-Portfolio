@@ -1,0 +1,13 @@
+[
+  {
+    "id": 1,
+    "company": "Cognizant",
+    "role": "DevOps Engineer",
+    "duration": "Jan 2026 – Present",
+    "points": [
+      "Working on Azure cloud infrastructure with AKS, Jenkins pipelines, and Terraform IaC",
+      "Building and maintaining CI/CD pipelines for containerized applications",
+      "Automating infrastructure provisioning and deployment workflows"
+    ]
+  }
+]
