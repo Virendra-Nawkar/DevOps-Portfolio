@@ -10,7 +10,6 @@ import {
 } from 'react-icons/fa'
 import {
   SiKubernetes,
-  SiMicrosoftazure,
   SiJenkins,
   SiGithubactions,
   SiTerraform,
@@ -28,13 +27,14 @@ type Skill = {
   category: string
 }
 
+// Maps icon string names (from JSON) to actual React icon components
+// Azure/AKS/ACR are NOT here — they will use the text fallback automatically
 const iconMap: Record<string, React.ComponentType<{ size?: number; className?: string }>> = {
   FaDocker: FaDocker,
   FaLinux: FaLinux,
   FaGitAlt: FaGitAlt,
   FaPython: FaPython,
   SiKubernetes: SiKubernetes,
-  SiMicrosoftazure: SiMicrosoftazure,
   SiJenkins: SiJenkins,
   SiGithubactions: SiGithubactions,
   SiTerraform: SiTerraform,
@@ -146,7 +146,7 @@ export default function Skills() {
                 transition={{ duration: 0.35 }}
                 className="group relative glow-card rounded-lg p-4 flex flex-col items-center gap-3 bg-[rgba(0,255,157,0.02)] cursor-default"
               >
-                {/* Icon */}
+                {/* Icon — if icon exists in iconMap show it, else show first 2 letters of skill name */}
                 <div
                   className="transition-all duration-300 group-hover:scale-110"
                   style={{ color, filter: `drop-shadow(0 0 8px ${color}40)` }}
@@ -154,11 +154,11 @@ export default function Skills() {
                   {IconComponent ? (
                     <IconComponent size={28} />
                   ) : (
-                    <span className="text-xl font-bold">{skill.name.slice(0, 2)}</span>
+                    <span className="text-xl font-bold font-mono">{skill.name.slice(0, 2)}</span>
                   )}
                 </div>
 
-                {/* Name */}
+                {/* Skill name */}
                 <span className="font-mono text-xs text-[#e2e8f0] text-center leading-tight">
                   {skill.name}
                 </span>
@@ -185,7 +185,7 @@ export default function Skills() {
           })}
         </motion.div>
 
-        {/* Count */}
+        {/* Total count */}
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
