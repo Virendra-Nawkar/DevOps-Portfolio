@@ -46,15 +46,20 @@ const iconMap: Record<string, React.ComponentType<{ size?: number; className?: s
 }
 
 const categoryColors: Record<string, string> = {
-  Containers: '#00ff9d',
+  // Containers: '#00ff9d',
+  // Cloud: '#00cfff',
+  // 'CI/CD': '#a855f7',
+  // IaC: '#f59e0b',
+  // OS: '#ec4899',
+  // VCS: '#f97316',
+  // Languages: '#3b82f6',
+  // Networking: '#10b981',
+  // Monitoring: '#ef4444',
+  DevOps: '#00ff9d',
   Cloud: '#00cfff',
   'CI/CD': '#a855f7',
-  IaC: '#f59e0b',
-  OS: '#ec4899',
-  VCS: '#f97316',
-  Languages: '#3b82f6',
-  Networking: '#10b981',
-  Monitoring: '#ef4444',
+  IaC: '#f59e0b'
+
 }
 
 const categories = ['All', ...Array.from(new Set((skillsData as Skill[]).map((s) => s.category)))]

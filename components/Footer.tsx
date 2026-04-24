@@ -23,7 +23,7 @@ export default function Footer() {
           {/* Logo */}
           <a href="#hero" className="font-mono text-sm flex items-center gap-1">
             <span className="text-[#00ff9d]">&gt; </span>
-            <span className="text-[#e2e8f0]">vir_</span>
+            <span className="text-[#e2e8f0]">virpages_</span>
             <span className="text-[#00ff9d] cursor-blink">█</span>
           </a>
 
@@ -34,7 +34,7 @@ export default function Footer() {
             <span>·</span>
             <span>Built with</span>
             <FaHeart className="text-[#00ff9d] inline" size={10} />
-            <span>using Next.js</span>
+            {/* <span>using Next.js</span> */}
           </p>
 
           {/* Social icons */}

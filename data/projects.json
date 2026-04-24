@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Security Scanner",
     "description": "A web app that scans Dockerfiles, Kubernetes manifests, and IaC files using industry-standard tools. Returns a scored security report with plain-English explanations for each finding.",
-    "tags": ["React", "Node.js", "Hadolint", "Trivy", "Checkov", "Polaris", "tfsec", "Security"],
+    "tags": ["React", "Node.js", "Security"],
     "github": "https://github.com/Virendra-Nawkar/Devops-test",
     "live": ""
   },
@@ -11,7 +11,7 @@
     "id": 2,
     "title": "DevOps Playground",
     "description": "A live autoscale visualizer that fires real HTTP load at a target and displays real-time pod count, CPU usage, requests/sec, and Kubernetes events on a live React dashboard.",
-    "tags": ["Locust", "FastAPI", "Kubernetes", "WebSocket", "React", "Prometheus", "K8s"],
+    "tags": ["Kubernetes", "React", "Prometheus", "K8s"],
     "github": "https://github.com/Virendra-Nawkar/DevOps-Playground",
     "live": ""
   }
