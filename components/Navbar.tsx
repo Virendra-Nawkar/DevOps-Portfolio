@@ -55,7 +55,7 @@ export default function Navbar() {
               aria-label="Home"
             >
               <span className="text-[#00ff9d]">&gt; </span>
-              <span className="text-[#e2e8f0]">vir_</span>
+              <span className="text-[#e2e8f0]">virpages_</span>
               <span className="text-[#00ff9d] cursor-blink">█</span>
             </a>
 

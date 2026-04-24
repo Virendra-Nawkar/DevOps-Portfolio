@@ -190,7 +190,7 @@ export default function Hero() {
           transition={{ delay: 1.5, duration: 0.5 }}
           className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
         >
-          <span className="font-mono text-[10px] text-[#64748b] tracking-widest">SCROLL</span>
+          {/* <span className="font-mono text-[10px] text-[#64748b] tracking-widest">SCROLL</span> */}
           <motion.div
             animate={{ y: [0, 6, 0] }}
             transition={{ repeat: Infinity, duration: 1.5, ease: 'easeInOut' }}
