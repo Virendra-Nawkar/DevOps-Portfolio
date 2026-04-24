@@ -10,7 +10,7 @@ import {
 } from 'react-icons/fa'
 import {
   SiKubernetes,
-  SiAzure,
+  SiMicrosoftazure,
   SiJenkins,
   SiGithubactions,
   SiTerraform,
@@ -34,7 +34,7 @@ const iconMap: Record<string, React.ComponentType<{ size?: number; className?: s
   FaGitAlt: FaGitAlt,
   FaPython: FaPython,
   SiKubernetes: SiKubernetes,
-  SiAzure: SiAzure,
+  SiMicrosoftazure: SiMicrosoftazure,
   SiJenkins: SiJenkins,
   SiGithubactions: SiGithubactions,
   SiTerraform: SiTerraform,
