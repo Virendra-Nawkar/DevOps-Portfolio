@@ -1,9 +1,12 @@
 import { Resend } from 'resend'
 import { NextResponse } from 'next/server'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 export async function POST(req: Request) {
+  // Resend is initialized HERE (inside function) not at top level
+  // This means it only runs when someone actually submits the form
+  // NOT during build time — so no missing API key error during docker build
+  const resend = new Resend(process.env.RESEND_API_KEY)
+
   try {
     const { name, email, message } = await req.json()
 
