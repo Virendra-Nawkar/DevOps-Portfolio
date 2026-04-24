@@ -1,8 +1,8 @@
 [
   { "name": "Docker",      "icon": "FaDocker",        "category": "Containers" },
   { "name": "Kubernetes",  "icon": "SiKubernetes",    "category": "Containers" },
-  { "name": "AKS",         "icon": "SiMicrosoftazure","category": "Cloud" },
-  { "name": "Azure",       "icon": "SiMicrosoftazure","category": "Cloud" },
+  { "name": "AKS",         "icon": "SiAzure","category": "Cloud" },
+  { "name": "Azure",       "icon": "SiAzure","category": "Cloud" },
   { "name": "Jenkins",     "icon": "SiJenkins",       "category": "CI/CD" },
   { "name": "CI/CD",       "icon": "SiGithubactions", "category": "CI/CD" },
   { "name": "Terraform",   "icon": "SiTerraform",     "category": "IaC" },
